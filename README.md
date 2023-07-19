@@ -12,7 +12,7 @@ This repo contains sample code for a simple chat webapp that integrates with Azu
 Please see [README_azd.md](./README_azd.md) for detailed instructions.
 
 ### One click Azure deployment
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fsample-app-aoai-chatGPT%2Fmain%2Finfrastructure%2Fdeployment.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnocode99%2Fsample-app-aoai-chatGPT%2Fmain%2Finfrastructure%2Fdeployment.json)
 
 Click on the Deploy to Azure button and configure your settings in the Azure Portal as described in the [Environment variables](#environment-variables) section.
 
@@ -22,7 +22,7 @@ Please see the [section below](#add-an-identity-provider) for important informat
 
 #### Local Setup: Basic Chat Experience
 1. Update the environment variables listed in `app.py` as described in the [Environment variables](#environment-variables) section.
-    
+
     These variables are required:
     - `AZURE_OPENAI_RESOURCE`
     - `AZURE_OPENAI_MODEL`
@@ -44,7 +44,7 @@ Please see the [section below](#add-an-identity-provider) for important informat
 #### Local Setup: Chat with your data (Preview)
 [More information about Azure OpenAI on your data](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/use-your-data)
 
-1. Update the `AZURE_OPENAI_*` environment variables as described above. 
+1. Update the `AZURE_OPENAI_*` environment variables as described above.
 2. To connect to your data, you need to specify an Azure Cognitive Search index to use. You can [create this index yourself](https://learn.microsoft.com/en-us/azure/search/search-get-started-portal) or use the [Azure AI Studio](https://oai.azure.com/portal/chat) to create the index for you.
 
     These variables are required when adding your data:
@@ -143,8 +143,8 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
